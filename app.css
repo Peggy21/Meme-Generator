@@ -1,0 +1,36 @@
+body {
+    background-color:rgb(134, 88, 136);
+}
+
+.center {
+    /* position: relative; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 20px;
+  }
+
+ .container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+    bottom: 20%;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+    color: #130f0f;
+    font-weight: bold;
+    width: 50%;
+    height: 20%;
+    padding: 10px;
+  }
+  
+  #results {
+      font-style: italic;
+      font-size: 15px;
+      color: white;
+      position: absolute;
+      top: 5%;
+      left: 40%;
+  }
